@@ -23,7 +23,7 @@ Here is a description for each python file:
   
   
   
-  2)webcounter.py
+  2) webcounter.py
   
     Created a script called webcounter.py
 
