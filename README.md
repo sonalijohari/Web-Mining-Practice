@@ -7,7 +7,9 @@ Here is a description for each python file:
 
      Created a script named extract_text_from_rotten_tomatoes.py
 
-     This script defines a function that accepts the URL to a movie on RottenTomatoes. It then creates a text file that             includes the following information for each review in the first 2 review pages for the movie:
+     This script defines a function that accepts the URL to a movie on RottenTomatoes. It then creates a 
+     text file that includes the following information for each review in the first 2 review pages for 
+     the movie:
 
      - the name of the critic 
 
@@ -19,7 +21,9 @@ Here is a description for each python file:
 
      - the date of the review. Is 'NA' if the review doesn't have a date.
 
-     The file includes one line for each review. The reviews in the file appear in the same order as they do on the                website. The 5 values that you write for each movie is written in the order listed above. The 5 values are separated          by a TAB.
+     The file includes one line for each review. The reviews in the file appear in the same 
+     order as they do on the website. The 5 values that you write for each movie is written in 
+     the order listed above. The 5 values are separated by a TAB.
   
   
   
@@ -29,7 +33,8 @@ Here is a description for each python file:
 
     - The script defines a function run() with 3 parameters: a link to webpage and two words w1 and w2.
 
-    - The function returns a set of all the words in the webpage that have a higher frequency than w1 but a lower frequency         than w2.
+    - The function returns a set of all the words in the webpage that have a higher frequency than w1 but a 
+      lower frequency than w2.
 
     - Ignored case.
 
@@ -41,7 +46,9 @@ Here is a description for each python file:
 
     My script defines the following function:
 
-    processSentence(sentence,posLex,negLex,tagger):  The parameters of this function are a sentence (a string), a set positive     words, a set of negative words, and a POS tagger.  The function returns a list with all the 4-grams in the sentence           that have the following structure:                                                   
+    processSentence(sentence,posLex,negLex,tagger):  The parameters of this function are a sentence (a 
+    string), a set positive words, a set of negative words, and a POS tagger.  The function returns a 
+    list with all the 4-grams in the sentence that have the following structure:                                                   
 
     not <any word> <pos/neg word> <noun>
 
