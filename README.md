@@ -36,3 +36,13 @@ Here is a description for each python file:
     - Removed all non-letter characters before you count
 
     - Ignored stopwords
+
+  3) getngrams.py. 
+
+    My script defines the following function:
+
+    processSentence(sentence,posLex,negLex,tagger):  The parameters of this function are a sentence (a string), a set positive     words, a set of negative words, and a POS tagger.  The function returns a list with all the 4-grams in the sentence           that have the following structure:                                                   
+
+    not <any word> <pos/neg word> <noun>
+
+    For example: not a good idea
